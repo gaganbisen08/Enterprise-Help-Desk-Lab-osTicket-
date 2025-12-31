@@ -1,9 +1,9 @@
-# Enterprise-Help-Desk-Lab-osTicket-
+# 🎫Enterprise-Help-Desk-Lab-osTicket-🎟️
 This project demonstrates the deployment and configuration of osTicket, an industry-standard open-source ticketing system. The goal was to simulate a corporate ITIL-aligned Service Desk environment by hosting a LAMP stack on a virtualized Linux server.
 🛠️ Technology Stack
 Virtualization: Oracle VM VirtualBox
 
-Operating System: Ubuntu Server 22.04 LTS
+Operating System: Ubuntu Server/Desktop 22.04 LTS
 
 Web Server: Apache2
 
@@ -47,6 +47,7 @@ GRANT ALL PRIVILEGES ON osticket_db.* TO 'osticket_user'@'localhost';
 FLUSH PRIVILEGES;
 EXIT;
 ```
+![image alt](https://github.com/gaganbisen08/Enterprise-Help-Desk-Lab-osTicket-/blob/main/Screenshot%20(71).png)
 Phase 4: osTicket Installation & Permissions
 Downloaded the osTicket source files into /var/www/html/.
 
@@ -61,17 +62,24 @@ sudo chmod -R 755 /var/www/html/osticket
 ```
 📋 Lab Simulations (Ticket Lifecycle)
 1. User Portal: Submitting a Ticket
+ 
+![image alt](https://github.com/gaganbisen08/Enterprise-Help-Desk-Lab-osTicket-/blob/main/Screenshot%20(76).png)
+
 Scenario: A user cannot connect to the VPN for remote work.
 
 Action: Used the Client Portal to open a "High Priority" ticket.
 
-Evidence: [Insert Screenshot of User Ticket Submission Page]
+![image alt](https://github.com/gaganbisen08/Enterprise-Help-Desk-Lab-osTicket-/blob/main/Screenshot%20(79).png)
+![image alt](https://github.com/gaganbisen08/Enterprise-Help-Desk-Lab-osTicket-/blob/main/Screenshot%20(80).png)
+![image alt](https://github.com/gaganbisen08/Enterprise-Help-Desk-Lab-osTicket-/blob/main/Screenshot%20(82).png)
 
 
 3. Agent Portal: Resolution & Knowledge Base
 
 
-Evidence: [Insert Screenshot of Resolved Ticket and FAQ Entry]
+![image alt](https://github.com/gaganbisen08/Enterprise-Help-Desk-Lab-osTicket-/blob/main/Screenshot%20(78).png)
+![image alt](https://github.com/gaganbisen08/Enterprise-Help-Desk-Lab-osTicket-/blob/main/Screenshot%20(82).png)
+
 
 🧠 Key Skills Learned
 Server Administration: Managing Linux services (Systemd) and troubleshooting web server logs.
